@@ -6,6 +6,7 @@ require File.dirname(__FILE__) + '/../support-chargify-com-redirects.rb'
 class TestClient < Test::Unit::TestCase
 
   def test_old_url
+    assert_redirects('/', 'http://chargify1304003157.zendesk.com/')
     assert_redirects('/kb/general-questions/can-i-bill-my-customers-more-than-once-a-month', 'http://chargify1304003157.zendesk.com/entries/20064513')
     assert_redirects('/kb/what-makes-chargify-different/how-does-chargify-compare-to-google-checkout', 'http://chargify1304003157.zendesk.com/entries/20065711')
     assert_redirects('/kb/technical/mail-deliverability', 'http://chargify1304003157.zendesk.com/entries/20064518')

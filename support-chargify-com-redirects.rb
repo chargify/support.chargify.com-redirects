@@ -2,6 +2,7 @@ require 'rubygems'
 require 'redirect'
 
 redirect \
+  ['/', 'http://chargify1304003157.zendesk.com/'],
   ['/kb/general-questions/can-i-bill-my-customers-more-than-once-a-month', 'http://chargify1304003157.zendesk.com/entries/20064513'],
   ['/kb/what-makes-chargify-different/how-does-chargify-compare-to-google-checkout', 'http://chargify1304003157.zendesk.com/entries/20065711'],
   ['/kb/technical/mail-deliverability', 'http://chargify1304003157.zendesk.com/entries/20064518'],
