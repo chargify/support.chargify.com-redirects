@@ -1,7 +1,3 @@
-require 'rubygems'
-require 'redirect'
-
-redirect \
 ["/kb/general-questions/can-i-bill-my-customers-more-than-once-a-month", "http://help.chargify.com/entries/20108157"],
 ["/kb/billing-payment/can-i-pay-by-check-or-money-order", ""],
 ["/kb/what-makes-chargify-different/how-does-chargify-compare-to-google-checkout", "http://help.chargify.com/entries/20110971"],
