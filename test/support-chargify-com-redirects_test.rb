@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'redirect/test'
 
-require File.dirname(__FILE__) + '/../support-chargify-com-redirects.rb'
+require_relative '../support-chargify-com-redirects.rb'
 
 class TestClient < Test::Unit::TestCase
 
